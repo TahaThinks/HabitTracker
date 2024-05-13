@@ -16,3 +16,12 @@ user_params = {
 # r.raise_for_status()
 # print(r.text)
 
+graph_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs"
+
+graph_config = {
+    "id": "graph1",
+    "name": "Cycling Graph",
+    "unit": "Km",
+    "type": "float",
+    "color": "ajisai",
+}
